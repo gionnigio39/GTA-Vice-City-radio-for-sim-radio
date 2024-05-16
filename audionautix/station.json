@@ -13,15 +13,7 @@
         {
           "path": "dont_stop.m4a",
           "duration": 60
-        },
-        {
-          "path": "thump.m4a",
-          "duration": 60 
-        },
-        {
-          "path": "transportation.m4a",
-          "duration": 60
-        }        
+        }
       ]
     },
     {
