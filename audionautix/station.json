@@ -12,15 +12,15 @@
       "files": [
         {
           "path": "dont_stop.m4a",
-          "duration": 10 
+          "duration": 60
         },
         {
           "path": "thump.m4a",
-          "duration": 9 
+          "duration": 60 
         },
         {
           "path": "transportation.m4a",
-          "duration": 10
+          "duration": 60
         }        
       ]
     },
