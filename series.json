@@ -8,7 +8,10 @@
     },
     "stations": [
         {
-            "path": "emotion_98.3"
-        }
+            "path": "Emotion_98.3"
+        },
+		{
+            "path": "Espantoso"
+        },
     ]
 }
