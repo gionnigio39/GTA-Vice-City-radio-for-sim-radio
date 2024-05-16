@@ -13,7 +13,11 @@
         {
           "path": "dont_stop.m4a",
           "duration": 60
-        }
+        },
+        {
+          "path": "dont_stop.m4a",
+          "duration": 60
+        }        
       ]
     },
     {
