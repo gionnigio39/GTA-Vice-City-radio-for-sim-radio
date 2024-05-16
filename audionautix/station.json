@@ -24,16 +24,16 @@
       "tag": "general",
       "files": [
         {
-          "path": "general/general_1.m4a",
-          "duration": 6.41
+          "path": "dont_stop.m4a",
+          "duration": 60
         },
         {
-          "path": "general/general_2.m4a",
-          "duration": 3.81
+          "path": "dont_stop.m4a",
+          "duration": 60
         },
         {
-          "path": "general/general_3.m4a",
-          "duration": 5.04
+          "path": "dont_stop.m4a",
+          "duration": 60
         }
       ]
     },
@@ -41,16 +41,16 @@
       "tag": "mixin",
       "files": [
         {
-          "path": "mixin/mixin_1.m4a",
-          "duration": 4.41
+          "path": "dont_stop.m4a",
+          "duration": 60
         },
         {
-          "path": "mixin/mixin_2.m4a",
-          "duration": 3.16
+          "path": "dont_stop.m4a",
+          "duration": 60
         },
         {
-          "path": "mixin/mixin_3.m4a",
-          "duration": 4.02
+          "path": "dont_stop.m4a",
+          "duration": 60
         }
       ]
     }
