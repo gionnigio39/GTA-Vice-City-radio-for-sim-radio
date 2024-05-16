@@ -12,15 +12,15 @@
       "files": [
         {
           "path": "dont_stop.m4a",
-          "duration": 3 
+          "duration": 9 
         },
         {
           "path": "thump.m4a",
-          "duration": 3 
+          "duration": 10 
         },
         {
           "path": "transportation.m4a",
-          "duration": 3
+          "duration": 9
         }        
       ]
     },
@@ -29,15 +29,15 @@
       "files": [
         {
           "path": "general/general_1.m4a",
-          "duration": 3
+          "duration": 10
         },
         {
           "path": "general/general_2.m4a",
-          "duration": 3
+          "duration": 10
         },
         {
           "path": "general/general_3.m4a",
-          "duration": 3
+          "duration": 10
         }
       ]
     },
@@ -46,15 +46,15 @@
       "files": [
         {
           "path": "mixin/mixin_1.m4a",
-          "duration": 2
+          "duration": 10
         },
         {
           "path": "mixin/mixin_2.m4a",
-          "duration": 3
+          "duration": 10
         },
         {
           "path": "mixin/mixin_3.m4a",
-          "duration": 2
+          "duration": 10
         }
       ]
     }
