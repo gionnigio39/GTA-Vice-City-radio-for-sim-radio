@@ -1,21 +1,21 @@
 {
-  "tag": "audionautix",
+  "tag": "emotion_98.3",
   "info": {
-    "title": "Electronic Music",
-    "genre": "Dance electronic music",
+    "title": "emotion_98.3",
+    "genre": "Ballata, Rock",
     "logo": "logo.png",
-    "dj": "DJ Central"
+    "dj": "DJ Fernando Martinez"
   },
   "fileGroups": [
     {
       "tag": "track",
       "files": [
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         },
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         }        
       ]
@@ -24,15 +24,15 @@
       "tag": "general",
       "files": [
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         },
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         },
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         }
       ]
@@ -41,15 +41,15 @@
       "tag": "mixin",
       "files": [
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         },
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         },
         {
-          "path": "dont_stop.m4a",
+          "path": "emotion_98.3.m4a",
           "duration": 3565
         }
       ]

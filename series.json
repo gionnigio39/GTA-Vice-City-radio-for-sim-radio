@@ -1,6 +1,6 @@
 {
     "info": {
-        "title": "Audionautix",
+        "title": "GTA Vice City Radio",
         "logo": "logo.png"
     },
     "common": {
@@ -8,7 +8,7 @@
     },
     "stations": [
         {
-            "path": "audionautix"
+            "path": "emotion_98.3"
         }
     ]
 }
