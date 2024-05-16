@@ -1,0 +1,126 @@
+{
+  "tag": "WildStyle FM",
+  "info": {
+    "title": "WildStyle FM",
+    "genre": "Old School hip hop, Electro",
+    "logo": "logo.png",
+    "dj": "DJ: Mr. Magic"
+  },
+  "fileGroups": [
+    {
+      "tag": "track",
+      "files": [
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        },
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        }        
+      ]
+    },
+    {
+      "tag": "general",
+      "files": [
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        },
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        },
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        }
+      ]
+    },
+    {
+      "tag": "mixin",
+      "files": [
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        },
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        },
+        {
+          "path": "WildStyle_FM.m4a",
+          "duration": 4007
+        }
+      ]
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "general"
+    },
+    "fragments": [
+      {
+        "tag": "general",
+        "src": {
+          "type": "group",
+          "groupTag": "general"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      },
+      {
+        "tag": "track",
+        "src": {
+          "type": "group",
+          "groupTag": "track"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "general",
+            "probability": 0.333
+          },
+          {
+            "fragmentTag": "track"
+          }
+        ],
+        "mixins": {
+          "pos": [
+            {
+              "tag": "begin",
+              "relativeOffset": 0.03
+            },
+            {
+              "tag": "end",
+              "relativeOffset": 0.97
+            }
+          ],
+          "mix": [
+            {
+              "tag": "mixins",
+              "src": {
+                "type": "group",
+                "groupTag": "mixin"
+              },
+              "condition": {
+                "type": "random",
+                "probability": 0.9
+              },
+              "posVariant": [
+                {
+                  "posTag": "end"
+                },
+                {
+                  "posTag": "begin"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

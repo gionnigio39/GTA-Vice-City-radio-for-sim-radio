@@ -1,0 +1,126 @@
+{
+  "tag": "VCPR",
+  "info": {
+    "title": "VCPR",
+    "genre": "Talk Show",
+    "logo": "logo.png",
+    "dj": "DJ: Maurice Chavez"
+  },
+  "fileGroups": [
+    {
+      "tag": "track",
+      "files": [
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        },
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        }        
+      ]
+    },
+    {
+      "tag": "general",
+      "files": [
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        },
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        },
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        }
+      ]
+    },
+    {
+      "tag": "mixin",
+      "files": [
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        },
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        },
+        {
+          "path": "VCPR.m4a",
+          "duration": 5187
+        }
+      ]
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "general"
+    },
+    "fragments": [
+      {
+        "tag": "general",
+        "src": {
+          "type": "group",
+          "groupTag": "general"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      },
+      {
+        "tag": "track",
+        "src": {
+          "type": "group",
+          "groupTag": "track"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "general",
+            "probability": 0.333
+          },
+          {
+            "fragmentTag": "track"
+          }
+        ],
+        "mixins": {
+          "pos": [
+            {
+              "tag": "begin",
+              "relativeOffset": 0.03
+            },
+            {
+              "tag": "end",
+              "relativeOffset": 0.97
+            }
+          ],
+          "mix": [
+            {
+              "tag": "mixins",
+              "src": {
+                "type": "group",
+                "groupTag": "mixin"
+              },
+              "condition": {
+                "type": "random",
+                "probability": 0.9
+              },
+              "posVariant": [
+                {
+                  "posTag": "end"
+                },
+                {
+                  "posTag": "begin"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

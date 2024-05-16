@@ -1,0 +1,126 @@
+{
+  "tag": "Wave 103",
+  "info": {
+    "title": "Wave 103",
+    "genre": "New Wave",
+    "logo": "logo.png",
+    "dj": "DJ: Adam First"
+  },
+  "fileGroups": [
+    {
+      "tag": "track",
+      "files": [
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        },
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        }        
+      ]
+    },
+    {
+      "tag": "general",
+      "files": [
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        },
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        },
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        }
+      ]
+    },
+    {
+      "tag": "mixin",
+      "files": [
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        },
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        },
+        {
+          "path": "Wave_103.m4a",
+          "duration": 3478
+        }
+      ]
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "general"
+    },
+    "fragments": [
+      {
+        "tag": "general",
+        "src": {
+          "type": "group",
+          "groupTag": "general"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      },
+      {
+        "tag": "track",
+        "src": {
+          "type": "group",
+          "groupTag": "track"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "general",
+            "probability": 0.333
+          },
+          {
+            "fragmentTag": "track"
+          }
+        ],
+        "mixins": {
+          "pos": [
+            {
+              "tag": "begin",
+              "relativeOffset": 0.03
+            },
+            {
+              "tag": "end",
+              "relativeOffset": 0.97
+            }
+          ],
+          "mix": [
+            {
+              "tag": "mixins",
+              "src": {
+                "type": "group",
+                "groupTag": "mixin"
+              },
+              "condition": {
+                "type": "random",
+                "probability": 0.9
+              },
+              "posVariant": [
+                {
+                  "posTag": "end"
+                },
+                {
+                  "posTag": "begin"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
