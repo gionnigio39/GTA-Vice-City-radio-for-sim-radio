@@ -57,14 +57,14 @@
   ],
   "playlist": {
     "firstFragment": {
-      "fragmentTag": "general"
+      "fragmentTag": "track"
     },
     "fragments": [
       {
-        "tag": "general",
+        "tag": "track",
         "src": {
           "type": "group",
-          "groupTag": "general"
+          "groupTag": "track"
         },
         "nextFragment": [
           {
@@ -80,7 +80,7 @@
         },
         "nextFragment": [
           {
-            "fragmentTag": "general",
+            "fragmentTag": "track",
             "probability": 0.333
           },
           {
@@ -100,10 +100,10 @@
           ],
           "mix": [
             {
-              "tag": "mixins",
+              "tag": "track",
               "src": {
                 "type": "group",
-                "groupTag": "mixin"
+                "groupTag": "track"
               },
               "condition": {
                 "type": "random",
